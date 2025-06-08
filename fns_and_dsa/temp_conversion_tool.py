@@ -2,7 +2,7 @@ FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 
-temperature = int(input("Enter a temperature and specify whether it’s in Celsius or Fahrenheit :"))
+temperature = int(input("Enter the temperature to convert :"))
 unit = input("Is this temperature in Celsius or Fahrenheit? (C/F) :").strip().lower()
 
 
