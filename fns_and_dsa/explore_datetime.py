@@ -1,10 +1,15 @@
 from datetime import date, datetime, timedelta
 
-def display_current_datetime() :
-    current_date_time = datetime.now()
-    return current_date_time
+current_date_time = datetime.now()
 
-print(display_current_datetime())
+def display_current_datetime() :
+    
+    # return current_date_time
+    print(current_date_time.strftime("%Y-%m-%d"))      
+    print(current_date_time.strftime("%B %d, %Y"))     
+    print(current_date_time.strftime("%H:%M:%S"))    
+
+display_current_datetime()
 
 
 
