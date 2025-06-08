@@ -1,14 +1,14 @@
-def perform_operation (num1, num2, operation):
+def perform_operation(num1, num2, operation):
     if operation == 'add' :
         return num1 + num2
-    if operation == 'subtract' :
+    elif operation == 'subtract' :
         return num1 - num2
-    if operation == 'multiply' :
+    elif operation == 'multiply' :
         return num1 * num2
-    if operation == 'divide' :
-        if num2 == 0 :
+    elif operation == 'divide' :
+        if num1 == 0 or num2 == 0:
             return "Error: Division by zero"
-        else :
+        else:
             return num1/num2
     else :
         return "Error: Invalid operation"
